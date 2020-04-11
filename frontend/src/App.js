@@ -1,11 +1,9 @@
-import React, {useState} from 'react';
-import Header from './Header';
+import React from 'react';
+import './global.css';
+import Routes from './routes';
 
 export default function App() {
     return (
-        <div>
-            <Header>Contador: {counter}</Header>
-            <button onClick={increment}>Incrementar</button>
-        </div>
+        <Routes/>
     );
 }
